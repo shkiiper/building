@@ -735,6 +735,12 @@ a {
   .review_section {
     padding-top: 15%;
   }
+  .footer-left {
+    padding-bottom: 5% !important;
+  }
+  .footer-center {
+    padding-bottom: 5% !important;
+  }
   .faq_section img {
     width: 95% !important;
   }
