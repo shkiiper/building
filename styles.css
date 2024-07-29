@@ -596,12 +596,6 @@ a {
   }
 }
 
-@media (max-width: 480px) {
-  .section_2_content {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 768px) {
   .section_3 {
     flex-direction: column;
@@ -731,7 +725,12 @@ a {
   }
   .center-content {
     text-align: start;
-    left: 45%;
+    width: 100%;
+    padding: 40px 350px;
+    left: 0;
+  }
+  .center-content a {
+    padding: 10px 100px;
   }
   .review_section {
     padding-top: 15%;
